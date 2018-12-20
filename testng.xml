@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="GlobalKineticAssessment.listener"/>
+</listeners>
+  <test name="Validating User Login">
+    <classes>
+      <class name="GlobalKineticAssessment.HomePage"/>
+      </classes>
+      </test>
+      <test name="Validating title in the page">
+      <classes>
+      <class name="GlobalKineticAssessment.validateNavigation"/>
+      </classes>
+      </test>
+      <test name="Validating Navigation in the page">
+      <classes>
+      <class name="GlobalKineticAssessment.validateTitle"/>
+      </classes>
+      </test>
+      <test name="App test">
+      <classes>
+      <class name="GlobalKineticAssessment.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
